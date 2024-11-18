@@ -8,3 +8,5 @@ C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransve
 C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.Form1.resources
 C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.Form2.resources
 C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.Form3.resources
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.Form4.resources
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.Form5.resources
