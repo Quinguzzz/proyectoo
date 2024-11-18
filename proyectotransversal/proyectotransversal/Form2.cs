@@ -23,10 +23,18 @@ namespace proyectotransversal
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
+			this.WindowState = FormWindowState.Maximized;
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form1 Form1 = new Form1 ();
+			Form1.Show();
+			this.Hide();			
 		}
 	}
 }
