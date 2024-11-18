@@ -1,0 +1,7 @@
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\bin\Debug\proyectotransversal.exe
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\bin\Debug\proyectotransversal.pdb
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.csprojResolveAssemblyReference.cache
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.exe
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.pdb
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.MainForm.resources
+C:\Users\quing\Documents\proyectos\proyectotransversal\proyectoo\proyectotransversal\proyectotransversal\obj\Debug\proyectotransversal.csproj.GenerateResource.Cache
