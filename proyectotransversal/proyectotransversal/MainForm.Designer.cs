@@ -77,12 +77,13 @@ namespace proyectotransversal
 			this.label3.BackColor = System.Drawing.Color.White;
 			this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-			this.label3.Location = new System.Drawing.Point(-6, 432);
+			this.label3.Location = new System.Drawing.Point(-6, 428);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(894, 42);
+			this.label3.Size = new System.Drawing.Size(894, 46);
 			this.label3.TabIndex = 3;
 			this.label3.Text = "¡Da clic aquí para hacer tu calculo de costos!";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.label3.Click += new System.EventHandler(this.Label3Click);
 			// 
 			// MainForm
 			// 
@@ -93,6 +94,7 @@ namespace proyectotransversal
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
+			this.DoubleBuffered = true;
 			this.Name = "MainForm";
 			this.Text = "COLOR AL COSTO";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -2,23 +2,22 @@
  * Created by SharpDevelop.
  * User: quing
  * Date: 17/11/2024
- * Time: 06:52 p. m.
+ * Time: 08:19 p. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace proyectotransversal
 {
 	/// <summary>
-	/// Description of MainForm.
+	/// Description of Form1.
 	/// </summary>
-	public partial class MainForm : Form
+	public partial class Form1 : Form
 	{
-		public MainForm()
+		public Form1()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -30,15 +29,20 @@ namespace proyectotransversal
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 			
-		
-				
 		}
 		
-		void Label3Click(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e)
 		{
-			Form1 Form1 = new Form1 ();
-			Form1.Show();
-			this.Hide();
+			MainForm MainForm = new MainForm ();
+			MainForm.Show();
+			this.Hide();			
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			Form2 Form2 = new Form2 ();
+			Form2.Show();
+			this.Hide();				
 		}
 	}
 }
