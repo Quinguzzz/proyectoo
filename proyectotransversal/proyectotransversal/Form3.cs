@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: quing
- * Date: 17/11/2024
- * Time: 10:03 p. m.
+ * Date: 18/11/2024
+ * Time: 12:37 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace proyectotransversal
 {
 	/// <summary>
-	/// Description of Form2.
+	/// Description of Form3.
 	/// </summary>
-	public partial class Form2 : Form
+	public partial class Form3 : Form
 	{
-		public Form2()
+		public Form3()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -32,17 +32,9 @@ namespace proyectotransversal
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			Form1 Form1 = new Form1 ();
-			Form1.Show();
+			Form2 Form2 = new Form2 ();
+			Form2.Show();
 			this.Hide();			
-		
-		}
-		
-		void Button2Click(object sender, EventArgs e)
-		{
-			Form3 Form3 = new Form3 ();
-			Form3.Show();
-			this.Hide();
 		}
 	}
 }
