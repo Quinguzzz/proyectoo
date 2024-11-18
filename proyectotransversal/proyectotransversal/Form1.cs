@@ -31,18 +31,20 @@ namespace proyectotransversal
 			
 		}
 		
-		void Button1Click(object sender, EventArgs e)
+		void Button7Click(object sender, EventArgs e)
 		{
 			MainForm MainForm = new MainForm ();
 			MainForm.Show();
-			this.Hide();			
+			this.Hide();
 		}
 		
-		void Button2Click(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e)
 		{
 			Form2 Form2 = new Form2 ();
 			Form2.Show();
-			this.Hide();				
+			this.Hide();
 		}
+		
+		
 	}
 }

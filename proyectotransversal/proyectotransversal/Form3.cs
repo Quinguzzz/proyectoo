@@ -43,8 +43,7 @@ namespace proyectotransversal
 			Form2 Form2 = new Form2 ();
 			Form2.Show();
 			this.Hide();			
+			
 		}
-		
-		
 	}
 }

@@ -120,7 +120,7 @@ namespace proyectotransversal
 			this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.White;
 			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-			this.button1.Location = new System.Drawing.Point(17, 141);
+			this.button1.Location = new System.Drawing.Point(17, 119);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(181, 39);
 			this.button1.TabIndex = 78;
@@ -133,7 +133,7 @@ namespace proyectotransversal
 			this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.White;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(362, 144);
+			this.button4.Location = new System.Drawing.Point(362, 122);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(181, 39);
 			this.button4.TabIndex = 77;
@@ -144,7 +144,7 @@ namespace proyectotransversal
 			// 
 			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(29, 162);
+			this.textBox2.Location = new System.Drawing.Point(29, 151);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(503, 20);
 			this.textBox2.TabIndex = 76;
@@ -154,17 +154,17 @@ namespace proyectotransversal
 			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label9.BackColor = System.Drawing.Color.White;
 			this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(27, 131);
+			this.label9.Location = new System.Drawing.Point(27, 120);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(466, 23);
 			this.label9.TabIndex = 75;
-			this.label9.Text = "COSTO POR LITRO:";
+			this.label9.Text = "COSTO POR KILOGRAMO:";
 			// 
 			// textBox1
 			// 
 			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(27, 89);
+			this.textBox1.Location = new System.Drawing.Point(27, 78);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(505, 20);
 			this.textBox1.TabIndex = 74;
@@ -174,11 +174,11 @@ namespace proyectotransversal
 			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label6.BackColor = System.Drawing.Color.White;
 			this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.Location = new System.Drawing.Point(27, 58);
+			this.label6.Location = new System.Drawing.Point(27, 47);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(342, 23);
 			this.label6.TabIndex = 73;
-			this.label6.Text = "LITROS:";
+			this.label6.Text = "KILOGRAMOS:";
 			// 
 			// label5
 			// 
@@ -212,7 +212,7 @@ namespace proyectotransversal
 			this.button7.BackColor = System.Drawing.Color.White;
 			this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button7.Location = new System.Drawing.Point(39, 311);
+			this.button7.Location = new System.Drawing.Point(37, 302);
 			this.button7.Name = "button7";
 			this.button7.Size = new System.Drawing.Size(75, 63);
 			this.button7.TabIndex = 70;
@@ -241,7 +241,7 @@ namespace proyectotransversal
 			this.label8.Font = new System.Drawing.Font("Times New Roman", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label8.ForeColor = System.Drawing.Color.White;
 			this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
-			this.label8.Location = new System.Drawing.Point(211, 35);
+			this.label8.Location = new System.Drawing.Point(216, 35);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(422, 102);
 			this.label8.TabIndex = 67;
@@ -285,9 +285,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.textBox1);
 			this.panel1.Controls.Add(this.label9);
 			this.panel1.Controls.Add(this.textBox2);
-			this.panel1.Location = new System.Drawing.Point(152, 220);
+			this.panel1.Location = new System.Drawing.Point(152, 242);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(566, 230);
+			this.panel1.Size = new System.Drawing.Size(566, 208);
 			this.panel1.TabIndex = 80;
 			// 
 			// button3
@@ -296,7 +296,7 @@ namespace proyectotransversal
 			this.button3.BackColor = System.Drawing.Color.White;
 			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button3.Location = new System.Drawing.Point(745, 311);
+			this.button3.Location = new System.Drawing.Point(748, 303);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(75, 63);
 			this.button3.TabIndex = 79;
