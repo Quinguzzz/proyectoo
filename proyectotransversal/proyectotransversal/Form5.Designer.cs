@@ -45,6 +45,8 @@ namespace proyectotransversal
 			this.button1 = new System.Windows.Forms.Button();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.label9 = new System.Windows.Forms.Label();
+			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
@@ -55,8 +57,6 @@ namespace proyectotransversal
 			this.button3 = new System.Windows.Forms.Button();
 			this.button7 = new System.Windows.Forms.Button();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.label9 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.panel1.SuspendLayout();
 			this.SuspendLayout();
@@ -133,7 +133,7 @@ namespace proyectotransversal
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(181, 39);
 			this.button1.TabIndex = 78;
-			this.button1.Text = "SALIDA";
+			this.button1.Text = "SALTAR";
 			this.button1.UseVisualStyleBackColor = true;
 			// 
 			// textBox1
@@ -160,6 +160,26 @@ namespace proyectotransversal
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 211);
 			this.panel1.TabIndex = 91;
+			// 
+			// label9
+			// 
+			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.label9.BackColor = System.Drawing.Color.White;
+			this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label9.Location = new System.Drawing.Point(26, 129);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(466, 23);
+			this.label9.TabIndex = 75;
+			this.label9.Text = "COSTO POR DOCENA:";
+			// 
+			// textBox2
+			// 
+			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.textBox2.Location = new System.Drawing.Point(28, 160);
+			this.textBox2.Name = "textBox2";
+			this.textBox2.Size = new System.Drawing.Size(503, 20);
+			this.textBox2.TabIndex = 76;
 			// 
 			// label1
 			// 
@@ -268,6 +288,7 @@ namespace proyectotransversal
 			this.button3.TabIndex = 90;
 			this.button3.Text = ">";
 			this.button3.UseVisualStyleBackColor = false;
+			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// button7
 			// 
@@ -291,26 +312,6 @@ namespace proyectotransversal
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(855, 33);
 			this.panel2.TabIndex = 93;
-			// 
-			// textBox2
-			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 160);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
-			// 
-			// label9
-			// 
-			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.label9.BackColor = System.Drawing.Color.White;
-			this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(26, 129);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(466, 23);
-			this.label9.TabIndex = 75;
-			this.label9.Text = "COSTO POR DOCENA:";
 			// 
 			// Form5
 			// 

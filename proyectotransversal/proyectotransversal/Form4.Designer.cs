@@ -120,11 +120,11 @@ namespace proyectotransversal
 			this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.White;
 			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-			this.button1.Location = new System.Drawing.Point(17, 119);
+			this.button1.Location = new System.Drawing.Point(27, 120);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(181, 39);
 			this.button1.TabIndex = 78;
-			this.button1.Text = "SALIDA";
+			this.button1.Text = "SALTAR";
 			this.button1.UseVisualStyleBackColor = true;
 			// 
 			// button4
@@ -133,7 +133,7 @@ namespace proyectotransversal
 			this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.White;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(362, 122);
+			this.button4.Location = new System.Drawing.Point(351, 120);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(181, 39);
 			this.button4.TabIndex = 77;

@@ -206,7 +206,7 @@ namespace proyectotransversal
 			this.button6.Name = "button6";
 			this.button6.Size = new System.Drawing.Size(181, 39);
 			this.button6.TabIndex = 78;
-			this.button6.Text = "SALIDA";
+			this.button6.Text = "SALTAR";
 			this.button6.UseVisualStyleBackColor = true;
 			// 
 			// button4
