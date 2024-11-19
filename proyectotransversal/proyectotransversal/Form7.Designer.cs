@@ -48,11 +48,11 @@ namespace proyectotransversal
 			this.button7 = new System.Windows.Forms.Button();
 			this.label9 = new System.Windows.Forms.Label();
 			this.button2 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtLitrosA = new System.Windows.Forms.TextBox();
 			this.label7 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCLitrosA = new System.Windows.Forms.TextBox();
 			this.label10 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.label1 = new System.Windows.Forms.Label();
@@ -203,14 +203,14 @@ namespace proyectotransversal
 			this.button2.Text = ">";
 			this.button2.UseVisualStyleBackColor = false;
 			// 
-			// textBox1
+			// txtLitrosA
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(26, 73);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtLitrosA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtLitrosA.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtLitrosA.Location = new System.Drawing.Point(26, 73);
+			this.txtLitrosA.Name = "txtLitrosA";
+			this.txtLitrosA.Size = new System.Drawing.Size(505, 20);
+			this.txtLitrosA.TabIndex = 74;
 			// 
 			// label7
 			// 
@@ -245,22 +245,22 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtLitrosA);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCLitrosA);
 			this.panel1.Location = new System.Drawing.Point(146, 237);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 183);
 			this.panel1.TabIndex = 104;
 			// 
-			// textBox2
+			// txtCLitrosA
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 146);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCLitrosA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCLitrosA.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCLitrosA.Location = new System.Drawing.Point(28, 146);
+			this.txtCLitrosA.Name = "txtCLitrosA";
+			this.txtCLitrosA.Size = new System.Drawing.Size(503, 20);
+			this.txtCLitrosA.TabIndex = 76;
 			// 
 			// label10
 			// 
@@ -341,7 +341,7 @@ namespace proyectotransversal
 		}
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label10;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtLitrosA;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Button button4;
@@ -353,7 +353,7 @@ namespace proyectotransversal
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCLitrosA;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Label label2;

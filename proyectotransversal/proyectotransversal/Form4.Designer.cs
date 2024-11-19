@@ -43,9 +43,9 @@ namespace proyectotransversal
 			this.label7 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCFs = new System.Windows.Forms.TextBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtFs = new System.Windows.Forms.TextBox();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
 			this.button6 = new System.Windows.Forms.Button();
@@ -140,14 +140,14 @@ namespace proyectotransversal
 			this.button4.Text = "AGREGAR";
 			this.button4.UseVisualStyleBackColor = true;
 			// 
-			// textBox2
+			// txtCFs
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(29, 141);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCFs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCFs.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCFs.Location = new System.Drawing.Point(29, 141);
+			this.txtCFs.Name = "txtCFs";
+			this.txtCFs.Size = new System.Drawing.Size(503, 20);
+			this.txtCFs.TabIndex = 76;
 			// 
 			// label9
 			// 
@@ -160,14 +160,14 @@ namespace proyectotransversal
 			this.label9.TabIndex = 75;
 			this.label9.Text = "COSTO POR KILOGRAMO:";
 			// 
-			// textBox1
+			// txtFs
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(27, 68);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtFs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtFs.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtFs.Location = new System.Drawing.Point(27, 68);
+			this.txtFs.Name = "txtFs";
+			this.txtFs.Size = new System.Drawing.Size(505, 20);
+			this.txtFs.TabIndex = 74;
 			// 
 			// label6
 			// 
@@ -282,9 +282,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtFs);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCFs);
 			this.panel1.Location = new System.Drawing.Point(152, 242);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 188);
@@ -350,9 +350,9 @@ namespace proyectotransversal
 		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtFs;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCFs;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Label label7;

@@ -49,9 +49,9 @@ namespace proyectotransversal
 			this.label6 = new System.Windows.Forms.Label();
 			this.button4 = new System.Windows.Forms.Button();
 			this.button6 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtLitrosP = new System.Windows.Forms.TextBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCLitrosP = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.button7 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -157,9 +157,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button6);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtLitrosP);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCLitrosP);
 			this.panel1.Location = new System.Drawing.Point(146, 240);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 193);
@@ -215,14 +215,14 @@ namespace proyectotransversal
 			this.button6.Text = "SALTAR";
 			this.button6.UseVisualStyleBackColor = true;
 			// 
-			// textBox1
+			// txtLitrosP
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(27, 70);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtLitrosP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtLitrosP.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtLitrosP.Location = new System.Drawing.Point(27, 70);
+			this.txtLitrosP.Name = "txtLitrosP";
+			this.txtLitrosP.Size = new System.Drawing.Size(505, 20);
+			this.txtLitrosP.TabIndex = 74;
 			// 
 			// label9
 			// 
@@ -235,14 +235,14 @@ namespace proyectotransversal
 			this.label9.TabIndex = 75;
 			this.label9.Text = "COSTO POR LITRO:";
 			// 
-			// textBox2
+			// txtCLitrosP
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(29, 143);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCLitrosP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCLitrosP.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCLitrosP.Location = new System.Drawing.Point(29, 143);
+			this.txtCLitrosP.Name = "txtCLitrosP";
+			this.txtCLitrosP.Size = new System.Drawing.Size(503, 20);
+			this.txtCLitrosP.TabIndex = 76;
 			// 
 			// button1
 			// 
@@ -297,9 +297,9 @@ namespace proyectotransversal
 		}
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCLitrosP;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtLitrosP;
 		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Label label6;

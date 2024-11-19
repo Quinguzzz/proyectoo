@@ -40,10 +40,10 @@ namespace proyectotransversal
 			this.button6 = new System.Windows.Forms.Button();
 			this.button7 = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtManodeobra = new System.Windows.Forms.TextBox();
 			this.label9 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCManodeobra = new System.Windows.Forms.TextBox();
 			this.label8 = new System.Windows.Forms.Label();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
@@ -101,14 +101,14 @@ namespace proyectotransversal
 			this.label2.TabIndex = 108;
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// textBox1
+			// txtManodeobra
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(26, 80);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtManodeobra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtManodeobra.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtManodeobra.Location = new System.Drawing.Point(26, 80);
+			this.txtManodeobra.Name = "txtManodeobra";
+			this.txtManodeobra.Size = new System.Drawing.Size(505, 20);
+			this.txtManodeobra.TabIndex = 74;
 			// 
 			// label9
 			// 
@@ -135,14 +135,14 @@ namespace proyectotransversal
 			this.label3.Text = "¡Da clic aquí para hacer tu calculo de costos!";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// textBox2
+			// txtCManodeobra
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 153);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCManodeobra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCManodeobra.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCManodeobra.Location = new System.Drawing.Point(28, 153);
+			this.txtCManodeobra.Name = "txtCManodeobra";
+			this.txtCManodeobra.Size = new System.Drawing.Size(503, 20);
+			this.txtCManodeobra.TabIndex = 76;
 			// 
 			// label8
 			// 
@@ -232,9 +232,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtManodeobra);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCManodeobra);
 			this.panel1.Location = new System.Drawing.Point(152, 240);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 210);
@@ -352,10 +352,10 @@ namespace proyectotransversal
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCManodeobra;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtManodeobra;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Button button6;

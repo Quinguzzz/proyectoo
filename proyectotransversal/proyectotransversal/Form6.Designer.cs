@@ -45,7 +45,7 @@ namespace proyectotransversal
 			this.button4 = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.label8 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtParticipantes = new System.Windows.Forms.TextBox();
 			this.button7 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
@@ -53,10 +53,10 @@ namespace proyectotransversal
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label4 = new System.Windows.Forms.Label();
-			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.txtCExtra = new System.Windows.Forms.TextBox();
 			this.label11 = new System.Windows.Forms.Label();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCComida = new System.Windows.Forms.TextBox();
+			this.txtCBebida = new System.Windows.Forms.TextBox();
 			this.label7 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.label1 = new System.Windows.Forms.Label();
@@ -170,14 +170,14 @@ namespace proyectotransversal
 			this.label8.Text = "COLOR AL COSTO";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
-			// textBox1
+			// txtParticipantes
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(26, 77);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(235, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtParticipantes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtParticipantes.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtParticipantes.Location = new System.Drawing.Point(26, 77);
+			this.txtParticipantes.Name = "txtParticipantes";
+			this.txtParticipantes.Size = new System.Drawing.Size(235, 20);
+			this.txtParticipantes.TabIndex = 74;
 			// 
 			// button7
 			// 
@@ -249,15 +249,15 @@ namespace proyectotransversal
 			this.panel1.BackColor = System.Drawing.Color.White;
 			this.panel1.Controls.Add(this.label4);
 			this.panel1.Controls.Add(this.label5);
-			this.panel1.Controls.Add(this.textBox3);
+			this.panel1.Controls.Add(this.txtCExtra);
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.label11);
 			this.panel1.Controls.Add(this.button4);
-			this.panel1.Controls.Add(this.textBox4);
+			this.panel1.Controls.Add(this.txtCComida);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtParticipantes);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCBebida);
 			this.panel1.Location = new System.Drawing.Point(142, 235);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 210);
@@ -274,14 +274,14 @@ namespace proyectotransversal
 			this.label4.TabIndex = 107;
 			this.label4.Text = "COSTO EXTRA:";
 			// 
-			// textBox3
+			// txtCExtra
 			// 
-			this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox3.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox3.Location = new System.Drawing.Point(293, 77);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(235, 20);
-			this.textBox3.TabIndex = 108;
+			this.txtCExtra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCExtra.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCExtra.Location = new System.Drawing.Point(293, 77);
+			this.txtCExtra.Name = "txtCExtra";
+			this.txtCExtra.Size = new System.Drawing.Size(235, 20);
+			this.txtCExtra.TabIndex = 108;
 			// 
 			// label11
 			// 
@@ -294,23 +294,23 @@ namespace proyectotransversal
 			this.label11.TabIndex = 109;
 			this.label11.Text = "COSTO DE LA COMIDA:";
 			// 
-			// textBox4
+			// txtCComida
 			// 
-			this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox4.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox4.Location = new System.Drawing.Point(295, 150);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(233, 20);
-			this.textBox4.TabIndex = 110;
+			this.txtCComida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCComida.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCComida.Location = new System.Drawing.Point(295, 150);
+			this.txtCComida.Name = "txtCComida";
+			this.txtCComida.Size = new System.Drawing.Size(233, 20);
+			this.txtCComida.TabIndex = 110;
 			// 
-			// textBox2
+			// txtCBebida
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 150);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(233, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCBebida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCBebida.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCBebida.Location = new System.Drawing.Point(28, 150);
+			this.txtCBebida.Name = "txtCBebida";
+			this.txtCBebida.Size = new System.Drawing.Size(233, 20);
+			this.txtCBebida.TabIndex = 76;
 			// 
 			// label7
 			// 
@@ -387,22 +387,22 @@ namespace proyectotransversal
 			this.panel1.PerformLayout();
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.TextBox txtCComida;
 		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.TextBox txtCExtra;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCBebida;
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button7;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtParticipantes;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button button4;

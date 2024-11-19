@@ -45,9 +45,9 @@ namespace proyectotransversal
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCBultos = new System.Windows.Forms.TextBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtBultos = new System.Windows.Forms.TextBox();
 			this.button6 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
@@ -167,14 +167,14 @@ namespace proyectotransversal
 			this.button1.UseVisualStyleBackColor = false;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// textBox2
+			// txtCBultos
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(29, 159);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCBultos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCBultos.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCBultos.Location = new System.Drawing.Point(29, 159);
+			this.txtCBultos.Name = "txtCBultos";
+			this.txtCBultos.Size = new System.Drawing.Size(503, 20);
+			this.txtCBultos.TabIndex = 76;
 			// 
 			// label9
 			// 
@@ -187,14 +187,14 @@ namespace proyectotransversal
 			this.label9.TabIndex = 75;
 			this.label9.Text = "COSTO POR BULTO:";
 			// 
-			// textBox1
+			// txtBultos
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(27, 86);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtBultos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtBultos.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtBultos.Location = new System.Drawing.Point(27, 86);
+			this.txtBultos.Name = "txtBultos";
+			this.txtBultos.Size = new System.Drawing.Size(505, 20);
+			this.txtBultos.TabIndex = 74;
 			// 
 			// button6
 			// 
@@ -254,9 +254,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button6);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtBultos);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCBultos);
 			this.panel1.Location = new System.Drawing.Point(140, 240);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 224);
@@ -307,9 +307,9 @@ namespace proyectotransversal
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCBultos;
 		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtBultos;
 		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Label label6;

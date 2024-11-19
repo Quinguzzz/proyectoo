@@ -43,10 +43,10 @@ namespace proyectotransversal
 			this.button4 = new System.Windows.Forms.Button();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.button1 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtDocena = new System.Windows.Forms.TextBox();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label9 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCDocena = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
@@ -136,14 +136,14 @@ namespace proyectotransversal
 			this.button1.Text = "SALTAR";
 			this.button1.UseVisualStyleBackColor = true;
 			// 
-			// textBox1
+			// txtDocena
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(26, 74);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(505, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtDocena.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtDocena.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtDocena.Location = new System.Drawing.Point(26, 74);
+			this.txtDocena.Name = "txtDocena";
+			this.txtDocena.Size = new System.Drawing.Size(505, 20);
+			this.txtDocena.TabIndex = 74;
 			// 
 			// panel1
 			// 
@@ -153,9 +153,9 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button1);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtDocena);
 			this.panel1.Controls.Add(this.label9);
-			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.txtCDocena);
 			this.panel1.Location = new System.Drawing.Point(151, 240);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 199);
@@ -172,14 +172,14 @@ namespace proyectotransversal
 			this.label9.TabIndex = 75;
 			this.label9.Text = "COSTO POR DOCENA:";
 			// 
-			// textBox2
+			// txtCDocena
 			// 
-			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 147);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(503, 20);
-			this.textBox2.TabIndex = 76;
+			this.txtCDocena.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtCDocena.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtCDocena.Location = new System.Drawing.Point(28, 147);
+			this.txtCDocena.Name = "txtCDocena";
+			this.txtCDocena.Size = new System.Drawing.Size(503, 20);
+			this.txtCDocena.TabIndex = 76;
 			// 
 			// label1
 			// 
@@ -339,7 +339,7 @@ namespace proyectotransversal
 			this.panel1.PerformLayout();
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCDocena;
 		private System.Windows.Forms.Label label9;
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Label label8;
@@ -352,7 +352,7 @@ namespace proyectotransversal
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtDocena;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button button4;

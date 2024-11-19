@@ -37,7 +37,7 @@ namespace proyectotransversal
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtTamano = new System.Windows.Forms.TextBox();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
@@ -55,14 +55,14 @@ namespace proyectotransversal
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// textBox1
+			// txtTamano
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(23, 86);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(514, 20);
-			this.textBox1.TabIndex = 74;
+			this.txtTamano.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtTamano.BackColor = System.Drawing.SystemColors.HighlightText;
+			this.txtTamano.Location = new System.Drawing.Point(23, 86);
+			this.txtTamano.Name = "txtTamano";
+			this.txtTamano.Size = new System.Drawing.Size(514, 20);
+			this.txtTamano.TabIndex = 74;
 			// 
 			// panel1
 			// 
@@ -72,7 +72,7 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
 			this.panel1.Controls.Add(this.button6);
-			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Controls.Add(this.txtTamano);
 			this.panel1.Location = new System.Drawing.Point(175, 267);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(566, 162);
@@ -273,7 +273,7 @@ namespace proyectotransversal
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtTamano;
 	}
 }
 
