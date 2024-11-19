@@ -92,7 +92,7 @@ namespace proyectotransversal
 			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label6.BackColor = System.Drawing.Color.White;
 			this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.Location = new System.Drawing.Point(26, 56);
+			this.label6.Location = new System.Drawing.Point(26, 48);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(342, 23);
 			this.label6.TabIndex = 73;
@@ -104,7 +104,7 @@ namespace proyectotransversal
 			this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.White;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(350, 122);
+			this.button4.Location = new System.Drawing.Point(350, 104);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(181, 39);
 			this.button4.TabIndex = 77;
@@ -129,7 +129,7 @@ namespace proyectotransversal
 			this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.White;
 			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-			this.button1.Location = new System.Drawing.Point(26, 122);
+			this.button1.Location = new System.Drawing.Point(26, 104);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(181, 39);
 			this.button1.TabIndex = 78;
@@ -140,7 +140,7 @@ namespace proyectotransversal
 			// 
 			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox1.Location = new System.Drawing.Point(26, 87);
+			this.textBox1.Location = new System.Drawing.Point(26, 77);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(505, 20);
 			this.textBox1.TabIndex = 74;
@@ -158,7 +158,7 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.textBox2);
 			this.panel1.Location = new System.Drawing.Point(151, 240);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(566, 211);
+			this.panel1.Size = new System.Drawing.Size(566, 194);
 			this.panel1.TabIndex = 91;
 			// 
 			// label9
@@ -166,7 +166,7 @@ namespace proyectotransversal
 			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label9.BackColor = System.Drawing.Color.White;
 			this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(26, 129);
+			this.label9.Location = new System.Drawing.Point(26, 119);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(466, 23);
 			this.label9.TabIndex = 75;
@@ -176,7 +176,7 @@ namespace proyectotransversal
 			// 
 			this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
-			this.textBox2.Location = new System.Drawing.Point(28, 160);
+			this.textBox2.Location = new System.Drawing.Point(28, 150);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(503, 20);
 			this.textBox2.TabIndex = 76;

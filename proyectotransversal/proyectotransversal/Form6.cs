@@ -34,8 +34,15 @@ namespace proyectotransversal
 		
 		void Button3Click(object sender, EventArgs e)
 		{
-			Form7 frm7 = new Form7();
-			frm7.Show();
+			Form7 Form7 = new Form7();
+			Form7.Show();
+			this.Close();
+		}
+		
+		void Button7Click(object sender, EventArgs e)
+		{
+			Form5 Form5 = new Form5();
+			Form5.Show();
 			this.Close();
 		}
 	}

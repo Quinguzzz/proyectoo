@@ -61,7 +61,7 @@ namespace proyectotransversal
 			this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
 			this.textBox1.Location = new System.Drawing.Point(23, 86);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(476, 20);
+			this.textBox1.Size = new System.Drawing.Size(514, 20);
 			this.textBox1.TabIndex = 74;
 			// 
 			// panel1

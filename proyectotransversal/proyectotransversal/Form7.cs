@@ -30,5 +30,12 @@ namespace proyectotransversal
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button7Click(object sender, EventArgs e)
+		{
+			Form6 Form6 = new Form6();
+			Form6.Show();
+			this.Close();			
+		}
 	}
 }
