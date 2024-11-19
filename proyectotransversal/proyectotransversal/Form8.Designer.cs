@@ -80,11 +80,11 @@ namespace proyectotransversal
 									| System.Windows.Forms.AnchorStyles.Right)));
 			this.label5.BackColor = System.Drawing.Color.White;
 			this.label5.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.Location = new System.Drawing.Point(17, 32);
+			this.label5.Location = new System.Drawing.Point(0, 32);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(526, 36);
+			this.label5.Size = new System.Drawing.Size(566, 36);
 			this.label5.TabIndex = 72;
-			this.label5.Text = "FLORES";
+			this.label5.Text = "HORAS DE DISEÑO";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
 			// label3
@@ -110,7 +110,7 @@ namespace proyectotransversal
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(342, 23);
 			this.label6.TabIndex = 73;
-			this.label6.Text = "DOCENAS:";
+			this.label6.Text = "PERSONAL DE DISEÑO:";
 			// 
 			// label2
 			// 
@@ -181,7 +181,7 @@ namespace proyectotransversal
 			this.button7.BackColor = System.Drawing.Color.White;
 			this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button7.Location = new System.Drawing.Point(38, 308);
+			this.button7.Location = new System.Drawing.Point(37, 307);
 			this.button7.Name = "button7";
 			this.button7.Size = new System.Drawing.Size(75, 63);
 			this.button7.TabIndex = 100;
@@ -201,6 +201,7 @@ namespace proyectotransversal
 			this.button3.TabIndex = 103;
 			this.button3.Text = ">";
 			this.button3.UseVisualStyleBackColor = false;
+			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// button2
 			// 
@@ -224,7 +225,7 @@ namespace proyectotransversal
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(466, 23);
 			this.label9.TabIndex = 75;
-			this.label9.Text = "COSTO POR DOCENA:";
+			this.label9.Text = "COSTO POR PERSONA:";
 			// 
 			// pictureBox1
 			// 

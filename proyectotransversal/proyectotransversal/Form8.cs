@@ -36,5 +36,12 @@ namespace proyectotransversal
 			Form7.Show();
 			this.Close();			
 		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			Form9 Form9 = new Form9();
+			Form9.Show();
+			this.Close();			
+		}
 	}
 }

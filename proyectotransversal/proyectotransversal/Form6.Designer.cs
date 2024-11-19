@@ -185,7 +185,7 @@ namespace proyectotransversal
 			this.button7.BackColor = System.Drawing.Color.White;
 			this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button7.Location = new System.Drawing.Point(35, 303);
+			this.button7.Location = new System.Drawing.Point(34, 302);
 			this.button7.Name = "button7";
 			this.button7.Size = new System.Drawing.Size(75, 63);
 			this.button7.TabIndex = 100;

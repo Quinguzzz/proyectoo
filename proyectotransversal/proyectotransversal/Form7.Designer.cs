@@ -145,7 +145,7 @@ namespace proyectotransversal
 			this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.White;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(350, 96);
+			this.button4.Location = new System.Drawing.Point(350, 108);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(181, 39);
 			this.button4.TabIndex = 77;
@@ -158,7 +158,7 @@ namespace proyectotransversal
 			this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.White;
 			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-			this.button1.Location = new System.Drawing.Point(26, 95);
+			this.button1.Location = new System.Drawing.Point(26, 107);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(181, 39);
 			this.button1.TabIndex = 78;
@@ -171,7 +171,7 @@ namespace proyectotransversal
 			this.button7.BackColor = System.Drawing.Color.White;
 			this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button7.Location = new System.Drawing.Point(34, 301);
+			this.button7.Location = new System.Drawing.Point(33, 300);
 			this.button7.Name = "button7";
 			this.button7.Size = new System.Drawing.Size(75, 63);
 			this.button7.TabIndex = 100;
@@ -188,7 +188,7 @@ namespace proyectotransversal
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(466, 23);
 			this.label9.TabIndex = 75;
-			this.label9.Text = "COSTO POR LITRO;";
+			this.label9.Text = "COSTO POR LITRO:";
 			// 
 			// button2
 			// 
