@@ -2,7 +2,7 @@
  * Created by SharpDevelop.
  * User: quing
  * Date: 18/11/2024
- * Time: 05:26 p. m.
+ * Time: 06:55 p. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,18 +13,17 @@ using System.Windows.Forms;
 namespace proyectotransversal
 {
 	/// <summary>
-	/// Description of Form7.
+	/// Description of Form8.
 	/// </summary>
-	public partial class Form7 : Form
+	public partial class Form8 : Form
 	{
-		public Form7()
+		public Form8()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			
-			this.WindowState =FormWindowState.Maximized;
+			this.WindowState = FormWindowState.Maximized;
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -33,16 +32,9 @@ namespace proyectotransversal
 		
 		void Button7Click(object sender, EventArgs e)
 		{
-			Form6 Form6 = new Form6();
-			Form6.Show();
+			Form7 Form7 = new Form7();
+			Form7.Show();
 			this.Close();			
-		}
-		
-		void Button3Click(object sender, EventArgs e)
-		{
-			Form8 Form8 = new Form8();
-			Form8.Show();
-			this.Close();
 		}
 	}
 }
