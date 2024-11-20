@@ -35,8 +35,8 @@ namespace proyectotransversal
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			Form3 Form2 = new Form3();
-			Form2.Show();
+			Form3 Form3 = new Form3();
+			Form3.Show();
 			this.Hide();
 		}
 		
@@ -44,6 +44,25 @@ namespace proyectotransversal
 		{
 			Form1 Form1 = new Form1 ();
 			Form1.Show();
+			this.Hide();
+		}
+		
+		void Button6Click(object sender, EventArgs e)
+		{
+			Form3 Form3 = new Form3();
+			Form3.Show();
+			this.Hide();
+		}
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			int cantidadBultos = Convert.ToInt32(txtBultos.Text);
+            double costoBulto = Convert.ToDouble(txtCBultos.Text);
+
+            double costoTotal = cantidadBultos * costoBulto;
+            
+			Form3 Form3 = new Form3();
+			Form3.Show();
 			this.Hide();
 		}
 	}

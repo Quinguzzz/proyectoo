@@ -223,6 +223,7 @@ namespace proyectotransversal
 			this.button1.TabIndex = 78;
 			this.button1.Text = "SALTAR";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// panel1
 			// 
@@ -276,6 +277,7 @@ namespace proyectotransversal
 			this.button4.TabIndex = 77;
 			this.button4.Text = "AGREGAR";
 			this.button4.UseVisualStyleBackColor = true;
+			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// panel2
 			// 

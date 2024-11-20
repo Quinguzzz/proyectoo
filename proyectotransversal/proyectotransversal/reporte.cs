@@ -17,13 +17,14 @@ namespace proyectotransversal
 	/// </summary>
 	public partial class reporte : Form
 	{
-		public reporte()
+		public reporte(double costoTotal)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
 			this.WindowState = FormWindowState.Maximized;
+			lblAserrin.Text = costoTotal.ToString("F2");
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
@@ -35,7 +36,7 @@ namespace proyectotransversal
 		{
 			MainForm MainForm = new MainForm();
 			MainForm.Show();
-			this.Close();			
+			this.Hide();			
 		}
 	}
 }

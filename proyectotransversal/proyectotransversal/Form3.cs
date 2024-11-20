@@ -45,5 +45,19 @@ namespace proyectotransversal
 			this.Hide();			
 			
 		}
+		
+		void Button6Click(object sender, EventArgs e)
+		{
+			Form4 Form4 = new Form4 ();
+			Form4.Show();
+			this.Hide();			
+		}
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			Form4 Form4 = new Form4 ();
+			Form4.Show();
+			this.Hide();			
+		}
 	}
 }

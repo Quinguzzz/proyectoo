@@ -42,7 +42,6 @@ namespace proyectotransversal
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.button4 = new System.Windows.Forms.Button();
-			this.button6 = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
@@ -71,7 +70,6 @@ namespace proyectotransversal
 			this.panel1.Controls.Add(this.label5);
 			this.panel1.Controls.Add(this.label6);
 			this.panel1.Controls.Add(this.button4);
-			this.panel1.Controls.Add(this.button6);
 			this.panel1.Controls.Add(this.txtTamano);
 			this.panel1.Location = new System.Drawing.Point(175, 267);
 			this.panel1.Name = "panel1";
@@ -108,25 +106,13 @@ namespace proyectotransversal
 			this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.ForeColor = System.Drawing.Color.White;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.Location = new System.Drawing.Point(362, 76);
+			this.button4.Location = new System.Drawing.Point(189, 75);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(181, 39);
 			this.button4.TabIndex = 77;
 			this.button4.Text = "AGREGAR";
 			this.button4.UseVisualStyleBackColor = true;
-			// 
-			// button6
-			// 
-			this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button6.ForeColor = System.Drawing.Color.White;
-			this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-			this.button6.Location = new System.Drawing.Point(17, 73);
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size(181, 39);
-			this.button6.TabIndex = 78;
-			this.button6.Text = "SALTAR";
-			this.button6.UseVisualStyleBackColor = true;
+			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// button1
 			// 
@@ -268,7 +254,6 @@ namespace proyectotransversal
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button6;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label5;

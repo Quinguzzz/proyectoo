@@ -34,14 +34,28 @@ namespace proyectotransversal
 		{
 			Form8 Form8 = new Form8();
 			Form8.Show();
-			this.Close();			
+			this.Hide();			
 		}
 		
 		void Button3Click(object sender, EventArgs e)
 		{
 			reporte reporte = new reporte();
 			reporte.Show();
-			this.Close();			
+			this.Hide();				
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			reporte reporte = new reporte();
+			reporte.Show();
+			this.Hide();			
+		}
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			reporte reporte = new reporte();
+			reporte.Show();
+			this.Hide();
 		}
 	}
 }
