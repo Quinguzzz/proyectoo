@@ -50,22 +50,22 @@ namespace proyectotransversal
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
+			this.lblTamano = new System.Windows.Forms.Label();
+			this.lblAserrin = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
+			this.lblManodeobra = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.label14 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
-			this.label16 = new System.Windows.Forms.Label();
+			this.lblPintura = new System.Windows.Forms.Label();
+			this.lblFrutos = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
-			this.label18 = new System.Windows.Forms.Label();
+			this.lblDiseno = new System.Windows.Forms.Label();
 			this.label19 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
+			this.lblAgua = new System.Windows.Forms.Label();
 			this.label21 = new System.Windows.Forms.Label();
-			this.label22 = new System.Windows.Forms.Label();
+			this.lblFlores = new System.Windows.Forms.Label();
 			this.label23 = new System.Windows.Forms.Label();
-			this.label24 = new System.Windows.Forms.Label();
+			this.lblTotal = new System.Windows.Forms.Label();
 			this.label25 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.panel1.SuspendLayout();
@@ -196,23 +196,23 @@ namespace proyectotransversal
 			// 
 			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.panel1.BackColor = System.Drawing.Color.White;
-			this.panel1.Controls.Add(this.label24);
+			this.panel1.Controls.Add(this.lblTotal);
 			this.panel1.Controls.Add(this.label25);
-			this.panel1.Controls.Add(this.label22);
+			this.panel1.Controls.Add(this.lblFlores);
 			this.panel1.Controls.Add(this.label23);
-			this.panel1.Controls.Add(this.label20);
+			this.panel1.Controls.Add(this.lblAgua);
 			this.panel1.Controls.Add(this.label21);
-			this.panel1.Controls.Add(this.label18);
+			this.panel1.Controls.Add(this.lblDiseno);
 			this.panel1.Controls.Add(this.label19);
-			this.panel1.Controls.Add(this.label16);
+			this.panel1.Controls.Add(this.lblFrutos);
 			this.panel1.Controls.Add(this.label17);
-			this.panel1.Controls.Add(this.label15);
-			this.panel1.Controls.Add(this.label12);
+			this.panel1.Controls.Add(this.lblPintura);
+			this.panel1.Controls.Add(this.lblManodeobra);
 			this.panel1.Controls.Add(this.label14);
 			this.panel1.Controls.Add(this.label13);
-			this.panel1.Controls.Add(this.label9);
+			this.panel1.Controls.Add(this.lblAserrin);
 			this.panel1.Controls.Add(this.label11);
-			this.panel1.Controls.Add(this.label6);
+			this.panel1.Controls.Add(this.lblTamano);
 			this.panel1.Controls.Add(this.label5);
 			this.panel1.Location = new System.Drawing.Point(61, 216);
 			this.panel1.Name = "panel1";
@@ -254,25 +254,25 @@ namespace proyectotransversal
 			this.label5.TabIndex = 0;
 			this.label5.Text = "TAMAÑO DEL TAPETE:";
 			// 
-			// label6
+			// lblTamano
 			// 
-			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.Location = new System.Drawing.Point(331, 67);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(28, 31);
-			this.label6.TabIndex = 1;
-			this.label6.Text = "0";
+			this.lblTamano.AutoSize = true;
+			this.lblTamano.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTamano.Location = new System.Drawing.Point(331, 67);
+			this.lblTamano.Name = "lblTamano";
+			this.lblTamano.Size = new System.Drawing.Size(28, 31);
+			this.lblTamano.TabIndex = 1;
+			this.lblTamano.Text = "0";
 			// 
-			// label9
+			// lblAserrin
 			// 
-			this.label9.AutoSize = true;
-			this.label9.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(678, 67);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(28, 31);
-			this.label9.TabIndex = 3;
-			this.label9.Text = "0";
+			this.lblAserrin.AutoSize = true;
+			this.lblAserrin.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAserrin.Location = new System.Drawing.Point(678, 67);
+			this.lblAserrin.Name = "lblAserrin";
+			this.lblAserrin.Size = new System.Drawing.Size(28, 31);
+			this.lblAserrin.TabIndex = 3;
+			this.lblAserrin.Text = "0";
 			// 
 			// label11
 			// 
@@ -284,15 +284,15 @@ namespace proyectotransversal
 			this.label11.TabIndex = 2;
 			this.label11.Text = "BULTOS DE ASERRIN:";
 			// 
-			// label12
+			// lblManodeobra
 			// 
-			this.label12.AutoSize = true;
-			this.label12.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.Location = new System.Drawing.Point(331, 249);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(28, 31);
-			this.label12.TabIndex = 5;
-			this.label12.Text = "0";
+			this.lblManodeobra.AutoSize = true;
+			this.lblManodeobra.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblManodeobra.Location = new System.Drawing.Point(331, 249);
+			this.lblManodeobra.Name = "lblManodeobra";
+			this.lblManodeobra.Size = new System.Drawing.Size(28, 31);
+			this.lblManodeobra.TabIndex = 5;
+			this.lblManodeobra.Text = "0";
 			// 
 			// label13
 			// 
@@ -314,25 +314,25 @@ namespace proyectotransversal
 			this.label14.TabIndex = 4;
 			this.label14.Text = "LITROS DE PINTURA:";
 			// 
-			// label15
+			// lblPintura
 			// 
-			this.label15.AutoSize = true;
-			this.label15.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.Location = new System.Drawing.Point(331, 131);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(28, 31);
-			this.label15.TabIndex = 5;
-			this.label15.Text = "0";
+			this.lblPintura.AutoSize = true;
+			this.lblPintura.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblPintura.Location = new System.Drawing.Point(331, 131);
+			this.lblPintura.Name = "lblPintura";
+			this.lblPintura.Size = new System.Drawing.Size(28, 31);
+			this.lblPintura.TabIndex = 5;
+			this.lblPintura.Text = "0";
 			// 
-			// label16
+			// lblFrutos
 			// 
-			this.label16.AutoSize = true;
-			this.label16.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label16.Location = new System.Drawing.Point(331, 193);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(28, 31);
-			this.label16.TabIndex = 7;
-			this.label16.Text = "0";
+			this.lblFrutos.AutoSize = true;
+			this.lblFrutos.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblFrutos.Location = new System.Drawing.Point(331, 193);
+			this.lblFrutos.Name = "lblFrutos";
+			this.lblFrutos.Size = new System.Drawing.Size(28, 31);
+			this.lblFrutos.TabIndex = 7;
+			this.lblFrutos.Text = "0";
 			// 
 			// label17
 			// 
@@ -344,15 +344,15 @@ namespace proyectotransversal
 			this.label17.TabIndex = 6;
 			this.label17.Text = "FLORES:";
 			// 
-			// label18
+			// lblDiseno
 			// 
-			this.label18.AutoSize = true;
-			this.label18.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label18.Location = new System.Drawing.Point(678, 131);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(28, 31);
-			this.label18.TabIndex = 9;
-			this.label18.Text = "0";
+			this.lblDiseno.AutoSize = true;
+			this.lblDiseno.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblDiseno.Location = new System.Drawing.Point(678, 131);
+			this.lblDiseno.Name = "lblDiseno";
+			this.lblDiseno.Size = new System.Drawing.Size(28, 31);
+			this.lblDiseno.TabIndex = 9;
+			this.lblDiseno.Text = "0";
 			// 
 			// label19
 			// 
@@ -364,15 +364,15 @@ namespace proyectotransversal
 			this.label19.TabIndex = 8;
 			this.label19.Text = "FRUTOS SECOS:";
 			// 
-			// label20
+			// lblAgua
 			// 
-			this.label20.AutoSize = true;
-			this.label20.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.Location = new System.Drawing.Point(678, 193);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(28, 31);
-			this.label20.TabIndex = 11;
-			this.label20.Text = "0";
+			this.lblAgua.AutoSize = true;
+			this.lblAgua.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblAgua.Location = new System.Drawing.Point(678, 193);
+			this.lblAgua.Name = "lblAgua";
+			this.lblAgua.Size = new System.Drawing.Size(28, 31);
+			this.lblAgua.TabIndex = 11;
+			this.lblAgua.Text = "0";
 			// 
 			// label21
 			// 
@@ -384,15 +384,15 @@ namespace proyectotransversal
 			this.label21.TabIndex = 10;
 			this.label21.Text = "LITROS DE AGUA:";
 			// 
-			// label22
+			// lblFlores
 			// 
-			this.label22.AutoSize = true;
-			this.label22.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label22.Location = new System.Drawing.Point(681, 249);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(28, 31);
-			this.label22.TabIndex = 13;
-			this.label22.Text = "0";
+			this.lblFlores.AutoSize = true;
+			this.lblFlores.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblFlores.Location = new System.Drawing.Point(681, 249);
+			this.lblFlores.Name = "lblFlores";
+			this.lblFlores.Size = new System.Drawing.Size(28, 31);
+			this.lblFlores.TabIndex = 13;
+			this.lblFlores.Text = "0";
 			// 
 			// label23
 			// 
@@ -404,15 +404,15 @@ namespace proyectotransversal
 			this.label23.TabIndex = 12;
 			this.label23.Text = "MANO DE OBRA:";
 			// 
-			// label24
+			// lblTotal
 			// 
-			this.label24.AutoSize = true;
-			this.label24.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label24.Location = new System.Drawing.Point(330, 321);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(29, 33);
-			this.label24.TabIndex = 15;
-			this.label24.Text = "0";
+			this.lblTotal.AutoSize = true;
+			this.lblTotal.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTotal.Location = new System.Drawing.Point(330, 321);
+			this.lblTotal.Name = "lblTotal";
+			this.lblTotal.Size = new System.Drawing.Size(29, 33);
+			this.lblTotal.TabIndex = 15;
+			this.lblTotal.Text = "0";
 			// 
 			// label25
 			// 
@@ -451,22 +451,22 @@ namespace proyectotransversal
 		}
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label lblAserrin;
 		private System.Windows.Forms.Label label13;
 		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label lblManodeobra;
+		private System.Windows.Forms.Label lblPintura;
 		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.Label lblFrutos;
 		private System.Windows.Forms.Label label19;
-		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Label lblDiseno;
 		private System.Windows.Forms.Label label21;
-		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label lblAgua;
 		private System.Windows.Forms.Label label23;
-		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.Label lblFlores;
 		private System.Windows.Forms.Label label25;
-		private System.Windows.Forms.Label label24;
-		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label lblTotal;
+		private System.Windows.Forms.Label lblTamano;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.Panel panel1;
