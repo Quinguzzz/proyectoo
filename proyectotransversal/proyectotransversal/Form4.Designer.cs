@@ -150,6 +150,7 @@ namespace proyectotransversal
 			this.txtCFs.Name = "txtCFs";
 			this.txtCFs.Size = new System.Drawing.Size(503, 20);
 			this.txtCFs.TabIndex = 76;
+			this.txtCFs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCFsKeyPress);
 			// 
 			// label9
 			// 
@@ -170,6 +171,7 @@ namespace proyectotransversal
 			this.txtFs.Name = "txtFs";
 			this.txtFs.Size = new System.Drawing.Size(505, 20);
 			this.txtFs.TabIndex = 74;
+			this.txtFs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtFsKeyPress);
 			// 
 			// label6
 			// 

@@ -109,6 +109,7 @@ namespace proyectotransversal
 			this.txtManodeobra.Name = "txtManodeobra";
 			this.txtManodeobra.Size = new System.Drawing.Size(505, 20);
 			this.txtManodeobra.TabIndex = 74;
+			this.txtManodeobra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtManodeobraKeyPress);
 			// 
 			// label9
 			// 
@@ -143,6 +144,7 @@ namespace proyectotransversal
 			this.txtCManodeobra.Name = "txtCManodeobra";
 			this.txtCManodeobra.Size = new System.Drawing.Size(503, 20);
 			this.txtCManodeobra.TabIndex = 76;
+			this.txtCManodeobra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCManodeobraKeyPress);
 			// 
 			// label8
 			// 

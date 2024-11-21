@@ -53,9 +53,59 @@ namespace proyectotransversal
 		
 		void Button4Click(object sender, EventArgs e)
 		{
+			int cantidadDiseño = Convert.ToInt32(txtDiseno.Text);
+			int cantidadHoras = Convert.ToInt32(txtHoras.Text);
+            double costoDiseño = Convert.ToDouble(txtCDiseno.Text);
+
+            Information.CostoTotalDiseño = costoDiseño * (cantidadDiseño * cantidadHoras);
 			Form9 Form9 = new Form9();
 			Form9.Show();
 			this.Hide();		
+		}
+		
+		void TxtDisenoKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtDiseno.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
+		}
+		
+		void TxtCDisenoKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCDiseno.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }		
+		}
+		
+		void TxtHorasKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtHoras.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
 		}
 	}
 }

@@ -62,6 +62,7 @@ namespace proyectotransversal
 			this.txtTamano.Name = "txtTamano";
 			this.txtTamano.Size = new System.Drawing.Size(514, 20);
 			this.txtTamano.TabIndex = 74;
+			this.txtTamano.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTamanoKeyPress);
 			// 
 			// panel1
 			// 

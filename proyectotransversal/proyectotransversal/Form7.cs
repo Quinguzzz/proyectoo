@@ -54,9 +54,43 @@ namespace proyectotransversal
 		
 		void Button4Click(object sender, EventArgs e)
 		{
+			int cantidadLitrosA = Convert.ToInt32(txtLitrosA.Text);
+            double costoLitrosA = Convert.ToDouble(txtCLitrosA.Text);
+
+            Information.CostoTotalAgua = cantidadLitrosA * costoLitrosA;
 			Form8 Form8 = new Form8();
 			Form8.Show();
-			this.Hide();
+			this.Hide();	
+		}
+		
+		void TxtLitrosAKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtLitrosA.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
+		}
+		
+		void TxtCLitrosAKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCLitrosA.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
 		}
 	}
 }

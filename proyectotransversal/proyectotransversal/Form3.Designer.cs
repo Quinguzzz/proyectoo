@@ -225,6 +225,7 @@ namespace proyectotransversal
 			this.txtLitrosP.Name = "txtLitrosP";
 			this.txtLitrosP.Size = new System.Drawing.Size(505, 20);
 			this.txtLitrosP.TabIndex = 74;
+			this.txtLitrosP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtLitrosPKeyPress);
 			// 
 			// label9
 			// 
@@ -245,6 +246,7 @@ namespace proyectotransversal
 			this.txtCLitrosP.Name = "txtCLitrosP";
 			this.txtCLitrosP.Size = new System.Drawing.Size(503, 20);
 			this.txtCLitrosP.TabIndex = 76;
+			this.txtCLitrosP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCLitrosPKeyPress);
 			// 
 			// button1
 			// 

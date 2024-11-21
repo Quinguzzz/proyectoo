@@ -58,10 +58,29 @@ namespace proyectotransversal
 		
 		
 		void Button4Click(object sender, EventArgs e)
-		{
+		{	
+			double tamano = Convert.ToInt32(txtTamano.Text);
+
+			Information.TotalTamano = tamano;
 			Form2 Form2 = new Form2 ();
 			Form2.Show();
 			this.Hide();
+		}
+		
+		void TxtTamanoKeyPress(object sender, KeyPressEventArgs  e)
+		{
+		  
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtTamano.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
 		}
 	}
 }

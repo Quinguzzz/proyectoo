@@ -55,9 +55,44 @@ namespace proyectotransversal
 		
 		void Button4Click(object sender, EventArgs e)
 		{
+			double cantidadLitrosP = Convert.ToInt32(txtLitrosP.Text);
+            double costoLitroP = Convert.ToDouble(txtCLitrosP.Text);
+            
+            Information.CostoTotalPintura= cantidadLitrosP * costoLitroP;
 			Form4 Form4 = new Form4 ();
 			Form4.Show();
 			this.Hide();			
 		}
+		
+		void TxtLitrosPKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtLitrosP.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
+		}
+		
+		void TxtCLitrosPKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCLitrosP.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
+		}
 	}
+			
 }

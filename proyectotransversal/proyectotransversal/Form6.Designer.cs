@@ -180,6 +180,7 @@ namespace proyectotransversal
 			this.txtParticipantes.Name = "txtParticipantes";
 			this.txtParticipantes.Size = new System.Drawing.Size(235, 20);
 			this.txtParticipantes.TabIndex = 74;
+			this.txtParticipantes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtParticipantesKeyPress);
 			// 
 			// button7
 			// 
@@ -284,6 +285,7 @@ namespace proyectotransversal
 			this.txtCExtra.Name = "txtCExtra";
 			this.txtCExtra.Size = new System.Drawing.Size(235, 20);
 			this.txtCExtra.TabIndex = 108;
+			this.txtCExtra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCExtraKeyPress);
 			// 
 			// label11
 			// 
@@ -304,6 +306,7 @@ namespace proyectotransversal
 			this.txtCComida.Name = "txtCComida";
 			this.txtCComida.Size = new System.Drawing.Size(233, 20);
 			this.txtCComida.TabIndex = 110;
+			this.txtCComida.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCComidaKeyPress);
 			// 
 			// txtCBebida
 			// 
@@ -313,6 +316,7 @@ namespace proyectotransversal
 			this.txtCBebida.Name = "txtCBebida";
 			this.txtCBebida.Size = new System.Drawing.Size(233, 20);
 			this.txtCBebida.TabIndex = 76;
+			this.txtCBebida.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCBebidaKeyPress);
 			// 
 			// label7
 			// 

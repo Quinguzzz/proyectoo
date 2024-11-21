@@ -59,11 +59,42 @@ namespace proyectotransversal
 			int cantidadBultos = Convert.ToInt32(txtBultos.Text);
             double costoBulto = Convert.ToDouble(txtCBultos.Text);
 
-            double costoTotal = cantidadBultos * costoBulto;
+            Information.CostoTotalAserrin = cantidadBultos * costoBulto;
             
 			Form3 Form3 = new Form3();
 			Form3.Show();
 			this.Hide();
+		
+		}
+		
+		void TxtBultosKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtBultos.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
+		}
+		
+		void TxtCBultosKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCBultos.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
 		}
 	}
 }

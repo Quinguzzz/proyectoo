@@ -54,10 +54,77 @@ namespace proyectotransversal
 		}
 		
 		void Button4Click(object sender, EventArgs e)
-		{
+		{	
+			int cantidadParticipantes = Convert.ToInt32(txtParticipantes.Text);
+            double costoBebida = Convert.ToDouble(txtCBebida.Text);
+            double costoComida = Convert.ToDouble(txtCExtra.Text);
+            double costoExtra = Convert.ToDouble(txtCComida.Text);
+			
+            Information.CostoTotalAlimentos = cantidadParticipantes * (costoBebida+costoComida+costoExtra);
+            
 			Form7 Form7 = new Form7();
 			Form7.Show();
 			this.Hide();
+		}
+		
+		void TxtParticipantesKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtParticipantes.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }	
+		}
+		
+		void TxtCExtraKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCBebida.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }	
+		}
+		
+		void TxtCBebidaKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCExtra.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }	
+		}
+		
+		void TxtCComidaKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCComida.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }	
 		}
 	}
 }

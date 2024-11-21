@@ -146,6 +146,7 @@ namespace proyectotransversal
 			this.txtDocena.Name = "txtDocena";
 			this.txtDocena.Size = new System.Drawing.Size(505, 20);
 			this.txtDocena.TabIndex = 74;
+			this.txtDocena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtDocenaKeyPress);
 			// 
 			// panel1
 			// 
@@ -182,6 +183,7 @@ namespace proyectotransversal
 			this.txtCDocena.Name = "txtCDocena";
 			this.txtCDocena.Size = new System.Drawing.Size(503, 20);
 			this.txtCDocena.TabIndex = 76;
+			this.txtCDocena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCDocenaKeyPress);
 			// 
 			// label1
 			// 

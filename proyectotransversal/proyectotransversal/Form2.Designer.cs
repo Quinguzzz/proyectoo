@@ -175,6 +175,7 @@ namespace proyectotransversal
 			this.txtCBultos.Name = "txtCBultos";
 			this.txtCBultos.Size = new System.Drawing.Size(503, 20);
 			this.txtCBultos.TabIndex = 76;
+			this.txtCBultos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCBultosKeyPress);
 			// 
 			// label9
 			// 
@@ -195,6 +196,7 @@ namespace proyectotransversal
 			this.txtBultos.Name = "txtBultos";
 			this.txtBultos.Size = new System.Drawing.Size(505, 20);
 			this.txtBultos.TabIndex = 74;
+			this.txtBultos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtBultosKeyPress);
 			// 
 			// button6
 			// 

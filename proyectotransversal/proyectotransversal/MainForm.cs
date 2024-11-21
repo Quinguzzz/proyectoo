@@ -41,4 +41,21 @@ namespace proyectotransversal
 			this.Hide();
 		}
 	}
-}
+	public static class Information {
+			 public static double TotalTamano=0;
+	         public static double CostoTotalAserrin=0;
+	         public static double CostoTotalPintura=0;
+	         public static double CostoTotalFrutos=0;
+	         public static double CostoTotalFlores=0;
+	         public static double CostoTotalAlimentos=0;
+	         public static double CostoTotalAgua=0;
+	         public static double CostoTotalDiseño=0;
+	         public static double CostoTotalObra=0;
+	}
+	
+	}
+		
+	
+		
+	
+

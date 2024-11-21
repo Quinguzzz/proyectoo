@@ -53,10 +53,45 @@ namespace proyectotransversal
 		}
 		
 		void Button4Click(object sender, EventArgs e)
-		{
+		{	
+			int cantidadFlores = Convert.ToInt32(txtDocena.Text);
+            double costoFlores = Convert.ToDouble(txtCDocena.Text);
+
+            Information.CostoTotalFlores = cantidadFlores * costoFlores;
+            
 			Form6 Form6= new Form6();
 			Form6.Show();
-			this.Hide();
+			this.Hide();	
+		}
+		
+		void TxtDocenaKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtDocena.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }	
+		}
+		
+		void TxtCDocenaKeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || e.KeyChar == (char)8)
+			    {
+			        if (e.KeyChar == '.' && txtCDocena.Text.Contains("."))
+			        {
+			            e.Handled = true; 
+			        }
+			    }
+			    else
+			    {
+			        e.Handled = true;
+			    }
 		}
 	}
 }
