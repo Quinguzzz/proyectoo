@@ -41,7 +41,7 @@ namespace proyectotransversal
                     + Information.CostoTotalAlimentos
                     + Information.CostoTotalAgua
                     + Information.CostoTotalDiseño
-                    + Information.CostoTotalObra;
+					+ Information.CostoTotalObra;
 
 			lblTotal.Text = totalCostos.ToString("F2");
 			//
